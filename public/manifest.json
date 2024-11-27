@@ -1,0 +1,47 @@
+{
+    "name": "Customer Event",
+    "version": "0.0.1",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "mapping": [
+        {
+            "dataSetId": "a84fcfb3-e0b4-44c0-99f5-b8687b5b1c3f",
+            "alias": "customer_event_data",
+            "fields":[]
+        }
+    ],
+    "workflowMapping": [
+        {
+            "alias": "eig_mail",
+            "modelId": null,
+            "version": null,
+            "parameters": [
+                {
+                    "name": "to",
+                    "aliasedName": "to",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "subject",
+                    "aliasedName": "subject",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "body",
+                    "aliasedName": "body",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "id": "f153e75a-fdc7-4947-aa15-6ec63bf7a658",
+    "proxyId":"0b3c0f5e-4ca1-4e86-801b-9b758e6310ad"
+}
